@@ -1,0 +1,48 @@
+<!-- 
+Your page should have a few basic user interface elements:
+-A header tag, with an h1 naming your site, with a title for your page
+-A footer with your name, student ID, and any other info about yourself you wish to include
+-A single unordered list with an id of results. All the arrays you have checked so far (until you refresh the page) will appear in this list as list items. Each item in the list will alternate the text colors starting with green, then red, then green, then red etc.
+
+Your page will have a form with the following:
+-A label with a for attribute referencing your input
+-A input with a name and type of text
+-A button to submit the form
+ -->
+
+ <!doctype html>
+ <html lang="en">
+ 
+ <head>
+     <meta charset="utf-8" />
+     <meta http-equiv="x-ua-compatible" content="ie=edge">
+     <title>Array Sorter</title>
+     <meta name="description" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <link rel="stylesheet" href="../public/css/main.css">
+ </head>
+ 
+ <body>
+    <h1>The Whole Array Sort Application</h1>
+     <main>
+      <div id="error" class="error"></div>  
+        <form method="POST" class = "formCSS" id="myForm">
+          <label for="inputArray">
+            Input
+            <input class = "inputClass" type="text" name="input" id="inputArray"/>
+          </label>        
+          <button class = "btn" type="submit">Submit</button>
+        </form>
+        
+        <ul class="list" id="results"></ul>
+        
+     </main>
+     <footer>
+      Abhishek Kocharekar CWID: 20012476
+    </footer>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+     <script src="../public/js/main.js"></script>
+ </body>
+ 
+ </html>

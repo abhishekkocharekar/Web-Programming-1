@@ -1,0 +1,112 @@
+body {
+	font-size: 14pt;
+	text-align: center;
+	background-color: yellow;
+}
+
+h1 {
+	color: blue;
+	background-color: burlywood;
+	margin-bottom: 5px;
+}
+
+h2 {
+	color: white;
+	background-color: green;
+	margin-bottom: 5px;
+}
+
+h1:hover{
+	background-color: #ff0000;
+}
+
+h2:hover{
+	color: pink;
+}
+
+p {
+	color: white;
+	background-color: #228b22;
+}
+
+p:hover{
+	background-color: aquamarine;
+}
+
+label {
+	font-weight: bold;
+	color: purple;
+}
+
+.not-found {
+	background-color: black;
+	color: #ff0000;
+}
+
+.btn {
+	color: #ff0000;
+	padding: 10px;
+	margin: 5px;
+	background-color: aqua;
+}
+
+.list {
+	display: inline-block;
+}
+
+.dtClass {
+	font-weight: bold;
+	font-size:larger;
+}
+
+dt:hover {
+	font-size: xx-large;
+}
+
+.dlClass {
+	color: red;
+}
+
+dl:hover {
+	background-color: black;
+}
+
+.ddClass {
+	color: blue;
+}
+
+.formCSS {
+	padding: 20px;
+	margin: 20px;
+	background-color:cornflowerblue;
+}
+
+form:hover {
+	background-color: #ff0000;
+}
+
+.inputClass {
+	background-color: aqua;
+}
+
+li {
+	font-weight: bold;
+}
+
+li:hover {
+	font-weight: bolder;
+	font-size: larger;
+}
+
+ul {
+	color: #ff0000;
+}
+
+ul:hover {
+	color: purple;
+}
+
+.aCSS {
+	background-color: aqua;
+	font-size: xx-large;
+}
